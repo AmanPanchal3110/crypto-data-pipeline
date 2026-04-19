@@ -1,0 +1,6 @@
+sources:
+    - name: raw
+      database: airflow
+      schema: staging
+      tables:
+        - name: stg_coin_data

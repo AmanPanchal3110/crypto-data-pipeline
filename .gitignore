@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables - SENSITIVE!
+.env
+
+# dbt
+target/
+dbt_packages/
+
+# Airflow
+logs/
+
+# Data files
+data/
+*.parquet
+*.csv
